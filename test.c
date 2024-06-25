@@ -1,11 +1,14 @@
 #include<stdio.h>
 
 int main(void){
-    int a,b,h;
-    pritnf("a:");
-    scanf("%d",&a);
-    printf("b:");
-    scanf("%d",&b);
-    printf("%d",&h);
+    double a,b,h,result;
+    printf("a: ");
+    scanf("%lf",&a);
+    printf("b: ");
+    scanf("%lf",&b);
+    printf("h: ");
+    scanf("%lf",&h);
+    result = (a+b)*h/2;
+    printf("Area is %.1lf",result);
     return 0;
 }
